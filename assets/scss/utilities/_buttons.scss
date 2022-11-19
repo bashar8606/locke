@@ -1,0 +1,35 @@
+.btn {
+  font-family: $secondary-font;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  font-size: 16px;
+  border-radius: size(12);
+  @include min(992) {
+    padding: 1.18rem 2rem;
+    font-size: size(20);
+    min-width: 300px;
+  }
+  &:hover {
+    .icon-arrow {
+      background-color: $primary;
+      border-color: $primary;
+    }
+  }
+
+  &-primary {
+      &:hover {
+        background-color: #fff;
+        color: $primary;
+        box-shadow: 0 0 0px 2px $primary;
+    }
+  }
+  &-light {
+    &:hover {
+        box-shadow: 0 0 0px 2px #000;
+    }
+  }
+
+  &.btn-shadow {
+    filter: drop-shadow(0px 0px 30px rgba(226, 30, 48, 0.7));
+  }
+}

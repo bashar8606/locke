@@ -1,0 +1,78 @@
+.ff-secondary {
+  font-family: $secondary-font;
+}
+
+
+.head-wrap{
+  max-width: 610px;
+  margin-bottom: 10px;
+  @include min(992) {
+    margin-bottom: 20px;
+  }
+   h2 {
+text-transform: uppercase;
+font-weight: 600;
+line-height: 1;
+
+   }
+   p{
+    font-size: 18px;
+    color: #86868b;
+    @include min(992) {
+    font-size: size(24);
+
+    }
+    
+   }
+}
+
+.h1 {
+  @include min(992) {
+    font-size: size(56);
+  }
+  @include min(1600) {
+    font-size: size(72);
+  }
+}
+.h2 {
+  @include min(992) {
+    font-size: size(48);
+  }
+  @include min(1600) {
+    font-size: size(56);
+  }
+}
+.h3 {
+  @include min(992) {
+    font-size: size(40);
+  }
+  @include min(1600) {
+    font-size: size(46);
+  }
+}
+.h4 {
+  @include min(992) {
+  }
+  @include min(1600) {
+  }
+}
+.h5 {
+  @include min(992) {
+    font-size: size(20);
+  }
+  @include min(1600) {
+    font-size: size(24);
+  }
+}
+.h6 {
+  font-size: size(18);
+}
+.p-main {
+  font-size: 18px;
+  @include min(992) {
+    font-size: size(20);
+  }
+  @include min(1600) {
+    font-size: size(24);
+  }
+}

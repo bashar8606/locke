@@ -1,0 +1,19 @@
+
+@import 'utilities/variable';
+@import 'mixins/mixins';
+@import 'mixins/root-mixins';
+
+// bootstrap
+@import 'bootstrap/bootstrap';
+// Resets
+@import 'utilities/resets';
+@import 'utilities/buttons';
+@import 'utilities/headings';
+@import './components/header';
+
+
+@import './components/footer';
+@import './pages/home.scss';
+
+
+
