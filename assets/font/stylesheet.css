@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'PP Formula Compressed';
+    src: url('PPFormula-CondensedBlack.woff2') format('woff2'),
+        url('PPFormula-CondensedBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula';
+    src: url('PPFormula-Light.woff2') format('woff2'),
+        url('PPFormula-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula';
+    src: url('PPFormula-Extrabold.woff2') format('woff2'),
+        url('PPFormula-Extrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula';
+    src: url('PPFormula-Medium.woff2') format('woff2'),
+        url('PPFormula-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula';
+    src: url('PPFormula-MediumItalic.woff2') format('woff2'),
+        url('PPFormula-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula';
+    src: url('PPFormula-Medium.woff2') format('woff2'),
+        url('PPFormula-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Formula Narrow';
+    src: url('PPFormula-NarrowRegular.woff2') format('woff2'),
+        url('PPFormula-NarrowRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
