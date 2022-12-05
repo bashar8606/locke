@@ -59,81 +59,7 @@
       <section class="lc-projects-sec">
         <div class="overflow-hidden position-relative">
           <div class="swiper-container gallery-main">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="project-item">
-                  <div class="container">
-                    <h3 class="h3">
-                      Residential and Offices Buildings Projects
-                    </h3>
-                  </div>
-                </div>
-                <img
-                  src="./assets/images/project1.png"
-                  class="cover"
-                  alt="Slide 01"
-                />
-              </div>
-              <div class="swiper-slide">
-                <div class="project-item">
-                  <div class="container">
-                    <h3 class="h3">
-                      Residential and Offices Buildings Projects
-                    </h3>
-                  </div>
-                </div>
-                <img src="./assets/images/project2.png" alt="Slide 02" />
-              </div>
-              <div class="swiper-slide">
-                <div class="project-item">
-                  <div class="container">
-                    <h3 class="h3">
-                      Residential and Offices Buildings Projects
-                    </h3>
-                  </div>
-                </div>
-                <img src="./assets/images/project3.png" alt="Slide 03" />
-              </div>
-              <div class="swiper-slide">
-                <div class="project-item">
-                  <div class="container">
-                    <h3 class="h3">
-                      Residential and Offices Buildings Projects
-                    </h3>
-                  </div>
-                </div>
-                <img src="./assets/images/project4.png" alt="Slide 04" />
-              </div>
-              <div class="swiper-slide">
-                <div class="project-item">
-                  <div class="container">
-                    <h3 class="h3">
-                      Residential and Offices Buildings Projects
-                    </h3>
-                  </div>
-                </div>
-                <img src="./assets/images/project5.png" alt="Slide 05" />
-              </div>
-              <div class="swiper-slide">
-                <div class="project-item">
-                  <div class="container">
-                    <h3 class="h3">
-                      Residential and Offices Buildings Projects
-                    </h3>
-                  </div>
-                </div>
-                <img src="./assets/images/project6.png" alt="Slide 06" />
-              </div>
-              <div class="swiper-slide">
-                <div class="project-item">
-                  <div class="container">
-                    <h3 class="h3">
-                      Residential and Offices Buildings Projects
-                    </h3>
-                  </div>
-                </div>
-                <img src="./assets/images/project7.png" alt="Slide 07" />
-              </div>
+            <div class="swiper-wrapper" id="projects">
             </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -141,77 +67,7 @@
           <div class="thumb-wrap">
             <div class="container">
               <div class="swiper-container gallery-thumbs">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="thumb-item">
-                      <div class="thumb-item-ratio">
-                        <img
-                          src="./assets/images/project1.png"
-                          alt="Slide 01"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="thumb-item">
-                      <div class="thumb-item-ratio">
-                        <img
-                          src="./assets/images/project2.png"
-                          alt="Slide 02"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="thumb-item">
-                      <div class="thumb-item-ratio">
-                        <img
-                          src="./assets/images/project3.png"
-                          alt="Slide 03"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="thumb-item">
-                      <div class="thumb-item-ratio">
-                        <img
-                          src="./assets/images/project4.png"
-                          alt="Slide 04"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="thumb-item">
-                      <div class="thumb-item-ratio">
-                        <img
-                          src="./assets/images/project5.png"
-                          alt="Slide 05"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="thumb-item">
-                      <div class="thumb-item-ratio">
-                        <img
-                          src="./assets/images/project6.png"
-                          alt="Slide 06"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="thumb-item">
-                      <div class="thumb-item-ratio">
-                        <img
-                          src="./assets/images/project7.png"
-                          alt="Slide 07"
-                        />
-                      </div>
-                    </div>
-                  </div>
+                <div class="swiper-wrapper" id="thumbs">
                 </div>
               </div>
             </div>
@@ -365,6 +221,235 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- pagescript here... -->
     <script>
+       const projects = [
+      {
+        title: "Higher College of Technology Campus",
+        img: "./assets/images/projects/EducationalProjects/project1.jpg",
+        category: "Educational Projects",
+        location: "Dibba | Fujairah"
+      },
+      {
+        title: "Masdar Institute Housing & Residential Devt.",
+        img: "./assets/images/projects/EducationalProjects/project2.jpg",
+        category: "Educational Projects",
+        location: "Abu Dhabi | UAE"
+      },
+      {
+        title: "Masdar Institute Housing & Residential Devt.",
+        img: "./assets/images/projects/EducationalProjects/project3.jpg",
+        category: "Educational Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Paris Sorbonne University ",
+        img: "./assets/images/projects/EducationalProjects/project4.jpg",
+        category: "Educational Projects",
+        location: "Al Reem Island, Abu Dhabi  | UAE"
+      },{
+        title: "Raha International School 2, Plot No. P2",
+        img: "./assets/images/projects/EducationalProjects/project5.jpg",
+        category: "Educational Projects",
+        location: "Khalifa City | Abu Dhabi"
+      },{
+        title: "UAE University New Campus ",
+        img: "./assets/images/projects/EducationalProjects/project6.jpeg",
+        category: "Educational Projects",
+        location: "Al Ain"
+      },
+      {
+        title: "Al Salama General Hospital of 122 Clinical Beds (98 Patients) Branch 01-AUH(2)",
+        img: "./assets/images/projects/HospitalProjects/1.jpg",
+        category: "Hospital Projects",
+        location: "Abu Dhabi | UAE"
+      },
+      {
+        title: "Bright Point Hospital",
+        img: "./assets/images/projects/HospitalProjects/2.jpg",
+        category: "Hospital Projects",
+        location: "Al Jazira"
+      },{
+        title: "Danat Al Emarat Women And Children's Hospital, ",
+        img: "./assets/images/projects/HospitalProjects/3.jpg",
+        category: "Hospital Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "IBN SINA University Hospital, Iraq",
+        img: "./assets/images/projects/HospitalProjects/4.jpg",
+        category: "Hospital Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Kanad Hospital (OASIS) ",
+        img: "./assets/images/projects/HospitalProjects/5.jpg",
+        category: "Hospital Projects",
+        location: "Al Ain | UAE"
+      },{
+        title: "Sheikh Shakhbout Hospital",
+        img: "./assets/images/projects/HospitalProjects/6.jpg",
+        category: "Hospital Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "4 Star Hotel Apartments - (Marriott-Residence Inn)",
+        img: "./assets/images/projects/HotelsProjects/1.jpg",
+        category: "Hotels Projects",
+        location: " Dammam"
+      },{
+        title: "Al Aqeeq Millenium Palace,  (4 Star Hotel)",
+        img: "./assets/images/projects/HotelsProjects/2.jpg",
+        category: "Hotels Projects",
+        location: "Riyadh | KSA"
+      },{
+        title: "Bristol Hotel, W32-Plot 1a-1b, Al Bateen Waterfront ",
+        img: "./assets/images/projects/HotelsProjects/3.jpg",
+        category: "Hotels Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Marriott Hotel Downtown",
+        img: "./assets/images/projects/HotelsProjects/4.jpg",
+        category: "Hotels Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Premier Inn Hotel AUH International Airport",
+        img: "./assets/images/projects/HotelsProjects/5.jpg",
+        category: "Hotels Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Premier Inn",
+        img: "./assets/images/projects/HotelsProjects/6.jpg",
+        category: "Hotels Projects",
+        location: "Doha | Qatar"
+      },{
+        title: "Al Ain Camel Milk Factory Extension-Plot No. 400-Altiwailaah",
+        img: "./assets/images/projects/IndustrialProjects/1.jpg",
+        category: "Industrial Projects",
+        location: "Al Ain"
+      },{
+        title: "Al Ain Factory for Bottled Water ",
+        img: "./assets/images/projects/IndustrialProjects/2.jpg",
+        category: "Industrial Projects",
+        location: "Al Ain"
+      },{
+        title: "Al Ain Star Factory(2)",
+        img: "./assets/images/projects/IndustrialProjects/3.jpg",
+        category: "Industrial Projects",
+        location: "Al Ain"
+      },{
+        title: "Al Reyami Furniture Factory, ICAD III (1)",
+        img: "./assets/images/projects/IndustrialProjects/4.jpg",
+        category: "Industrial Projects",
+        location: "Al Ain"
+      },{
+        title: "Industrial Projects",
+        img: "./assets/images/projects/IndustrialProjects/5.jpg",
+        category: "Industrial Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Plastic Factory On Plot 138SR42-ICAD",
+        img: "./assets/images/projects/IndustrialProjects/6.jpg",
+        category: "Industrial Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Plastic Factory On Plot 138SR42-ICAD",
+        img: "./assets/images/projects/MallsProjects/1.jpg",
+        category: "Malls Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Al Fahid Sales Center Building  ",
+        img: "./assets/images/projects/MallsProjects/2.jpg",
+        category: "Malls Projects",
+        location: "Al Fahid Island"
+      },{
+        title: "Al Sarab Mall, Baniyas EB2_03, Plot C16",
+        img: "./assets/images/projects/MallsProjects/3.jpg",
+        category: "Malls Projects",
+        location: "Al Resala"
+      },{
+        title: "Community Centre, Al Falalh Mall ",
+        img: "./assets/images/projects/MallsProjects/4.jpg",
+        category: "Malls Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "The Destination Mall",
+        img: "./assets/images/projects/MallsProjects/5.jpg",
+        category: "Malls Projects",
+        location: " Al Khair Riyadh"
+      },{
+        title: "Wahat Al Zaweya Traditional Souq, Sector-Shebak 1, Plot No. P3-C03-15, Al Faqa'a",
+        img: "./assets/images/projects/MallsProjects/6.jpg",
+        category: "Malls Projects",
+        location: "Al Ain"
+      },
+      {
+        title: "Abu Dhabi Club for Special Needs, Plot P-12 (E-13) ",
+        img: "./assets/images/projects/MixedProjects/1.jpg",
+        category: "Mixed Projects",
+        location: "Baniyas"
+      },{
+        title: "ADNOC New Mosque & Souq  ",
+        img: "./assets/images/projects/MixedProjects/2.jpg",
+        category: "Mixed Projects",
+        location: "Ruwais"
+      },{
+        title: "Saadiyat Temprary Cultural Park, Manarat Saadiyat ",
+        img: "./assets/images/projects/MixedProjects/3.jpg",
+        category: "Mixed Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Sheikh Khalifa Bin Zayed Al Nahyan Mosque",
+        img: "./assets/images/projects/MixedProjects/4.jpg",
+        category: "Mixed Projects",
+        location: "Al Ain"
+      },{
+        title: "Tawila Island Red Sea Resort",
+        img: "./assets/images/projects/MixedProjects/5.jpg",
+        category: "Mixed Projects",
+        location: "Egypt"
+      },{
+        title: "Yas Waterworld",
+        img: "./assets/images/projects/MixedProjects/6.jpg",
+        category: "Mixed Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Residential Bldg. Khor Al Raha, Plot No. 28, Sector RBW2(2)",
+        img: "./assets/images/projects/ResidentialandOfficesBuildingsProjects/1.jpg",
+        category: "Residential and Offices Buildings Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Residential Bldg. on Plot C47, Sector E-40 ",
+        img: "./assets/images/projects/ResidentialandOfficesBuildingsProjects/2.jpg",
+        category: "Residential and Offices Buildings Projects",
+        location: "Danet"
+      },{
+        title: "Residential Tower, M17-Plot No. C1",
+        img: "./assets/images/projects/ResidentialandOfficesBuildingsProjects/3.jpg",
+        category: "Residential and Offices Buildings Projects",
+        location: "Al Maryah Island"
+      },{
+        title: "Residential Tower, Plot C-23, Sector W-5, Corniche",
+        img: "./assets/images/projects/ResidentialandOfficesBuildingsProjects/4.jpg",
+        category: "Residential and Offices Buildings Projects",
+        location: "Abu Dhabi | UAE"
+      },{
+        title: "Shams Towers-S6C9-Shams ",
+        img: "./assets/images/projects/ResidentialandOfficesBuildingsProjects/5.jpg",
+        category: "Residential and Offices Buildings Projects",
+        location: "Abu Dhabi | Al Reem Island"
+      },{
+        title: "Tristar Office Bldg. SE 45_05, C3 ",
+        img: "./assets/images/projects/ResidentialandOfficesBuildingsProjects/6.jpg",
+        category: "Residential and Offices Buildings Projects",
+        location: "Madar City"
+      },
+    ]
+
+    var listItems = projects.map(function (data) {
+      return `<div class="swiper-slide"> <div class="project-item"> <div class="container"> <h3 class="h3"> ${data.category} </h3> <ul> <li> <div class="icon"> <img src="./assets/images/icon-folder.svg" alt="" /> </div> ${data.title} </li> <li> <div class="icon"> <img src="./assets/images/icon-location.svg" alt="" /> </div>  ${data.location} </li> </ul> <a href="" class="btn btn-outline-light">FIND OUT MORE<span class="icon-arrow"> <img src="./assets/images/icon-arrow.svg" alt="" /> </span></a> </div> </div> <img src=${data.img} class="cover" alt="Slide 01" /> </div>`;
+    })
+    var thumbItem = projects.map(function (data) {
+      return `<div class="swiper-slide"> <div class="thumb-item"> <div class="thumb-item-ratio"> <img src=${data.img} alt="Slide 01" /> </div> </div> </div>`;
+    })
+      document.getElementById('projects').innerHTML = listItems.join('');
+      document.getElementById('thumbs').innerHTML = thumbItem.join('');
+
+      
       var galleryThumbs = new Swiper(".gallery-thumbs", {
         centeredSlides: true,
         centeredSlidesBounds: true,
